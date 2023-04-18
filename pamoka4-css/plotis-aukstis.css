@@ -1,0 +1,22 @@
+.antraste {
+    width: 400px;
+}
+
+.pirma-pastraipa {
+    height: 400px;
+    border: 4px dashed rgb(33, 161, 44);
+}
+
+.w30 {
+    width: 30%;
+}
+
+.raudonas-tekstas {
+    color: red;
+}
+
+.pastraipos-dezute {
+    height: 100px;
+    width: 60%;
+}
+
