@@ -1,0 +1,23 @@
+/* Paprasto pavadinimo selektorius */
+p {
+    color: green;
+}
+
+#antrastePagrindine {
+    text-align: center;
+    color: bisque;
+    background-color: brown;
+}
+
+.raudona {
+    color: red;
+    /* Kiti būdai spalvoms: */
+    color: #ff0000;
+    color: rgb(18, 50, 179);
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/beautiful-milky-way-night-sky_53876-139825.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
