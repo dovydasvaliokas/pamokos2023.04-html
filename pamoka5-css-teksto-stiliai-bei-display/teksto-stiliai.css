@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.lygiuoti-kaireje {
+    text-align: left;
+}
+
+.lygiuoti-desineje {
+    text-align: right;
+}
+
+.lygiuoti-centre {
+    text-align: center;
+}
+
+.lygiuoti-lygiai {
+    text-align: justify;
+    text-align-last: right;
+}
+
+.remeliai {
+    border: 1px dashed gray;
+}
+
+.w50 {
+    width: 50%;
+    margin-left: 25%;
+    padding: 30px; 
+    /* vertical-align: middle;  nelygiuoja vertikaliai teksto */
+}
+
+.perbraukimas {
+    text-decoration: line-through;
+    text-decoration-color: aquamarine;
+}
+
+.pabraukimas {
+    text-decoration: underline;
+}
+
+.pabraukimas-vingiuotai {
+    text-decoration: underline blue wavy 5px;
+}
+
+.jokio-pabraukimo {
+    text-decoration: none;
+}
+
+
+.lucida-console-sriftas {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.pasviras-tekstas {
+    font-style: italic;
+}
+
+.paryskintas {
+    font-weight: bold;
+}
+
+.text36 {
+    font-size: 36px;
+}
+
+.ubuntu-sriftas {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
