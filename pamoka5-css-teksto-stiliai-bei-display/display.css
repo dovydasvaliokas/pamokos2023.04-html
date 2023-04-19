@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.lygiuoti-centre {
+    text-align: center;
+}
+
+.blokinis {
+    display: block;
+}
+
+.paeiliui {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: top;
+}

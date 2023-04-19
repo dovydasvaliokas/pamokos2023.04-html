@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px dashed gray;
+}
+
+.nav-juosta {
+    background-color: beige;
+    height: 40px;
+    width: 99%;
+}
+
+.triju-divu-bendri {
+    display: inline-block;
+    height: 500px;
+}
+
+.kaire-sonine-juosta {
+    background-color: yellowgreen;
+    width: 19%;
+}
+
+.turinio-div {
+    background-color: bisque;
+    width: 60%;
+}
+
+.desine-sonine-juosta {
+    background-color: chocolate;
+    width: 19%;
+}
+
+.vidiniai-blokeliai {
+    background-color: violet;
+    height: 200px;
+    margin: 33px 10px 0px 10px;
+}
