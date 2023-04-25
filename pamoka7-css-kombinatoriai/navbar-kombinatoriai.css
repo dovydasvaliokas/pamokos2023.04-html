@@ -1,0 +1,98 @@
+/* Pirmas pavyzdys lygiavimo mygtuku */
+.navbar > ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.navbar li {
+    background-color: blanchedalmond;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Antras pavyzdys lygiavimo mygtuku */
+.navbar2 > ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.navbar2 li {
+    background-color: blanchedalmond;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 30px;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Trečias pavyzdys mygtukų */
+.navbar3 > ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.navbar3 li {
+    background-color: blanchedalmond;
+    border: 2px solid salmon;
+    border-radius: 5px;
+}
+
+.navbar3 a {
+    text-decoration: none;
+    display: block;
+    /* padding: 10px; */
+    font-size: 25px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nenumeruojamas {
+    list-style-type: square;
+}
+
+.numeruojamas {
+    list-style-type: upper-roman;
+}
