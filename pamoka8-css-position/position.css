@@ -1,0 +1,35 @@
+div {
+    border: 1px dashed gray;
+}
+
+.pos-relative {
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+.pos-fixed {
+    position: fixed;
+    top: 30px;
+    right: 47px;
+    background-color: blueviolet;
+}
+
+.isorinis-relative {
+    position: relative;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.vidinis-pos-absolute {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.pos-sticky {
+    background-color: aqua;
+    position: sticky;
+    height: 50px;
+    top: 10px;
+}
