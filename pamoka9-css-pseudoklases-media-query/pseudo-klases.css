@@ -1,0 +1,59 @@
+.visiem-pirmiem-div > *:first-child {
+    color: red;
+}
+
+.pirmos-pastraipos-div > p:first-child {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+p:last-child {
+    color: green;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.striped td {
+    padding: 3px;
+}
+
+.striped tr:nth-child(odd) {
+    background-color: antiquewhite;
+}
+
+.striped tr:nth-child(even) {
+    background-color: azure;
+}
+
+.margos-pastraipos > p:nth-child(5n + 1) {
+    background-color: blueviolet;
+}
+
+.margos-pastraipos > p:nth-child(5n + 2) {
+    background-color: tomato;
+}
+
+.margos-pastraipos > p:nth-child(5n + 3) {
+    background-color: chocolate;
+}
+
+.margos-pastraipos > p:nth-child(5n + 4) {
+    background-color: greenyellow;
+}
+
+.margos-pastraipos > p:nth-child(5n + 5) {
+    background-color: brown;
+}
+
+.margos-pastraipos > p::before {
+    content: "Čia yra marga pastraipa";
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.margos-pastraipos > p::after {
+    content: "Pastraipos pabaiga";
+}
