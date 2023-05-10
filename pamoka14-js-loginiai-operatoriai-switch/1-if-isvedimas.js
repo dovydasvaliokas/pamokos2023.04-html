@@ -34,7 +34,10 @@ function arTeigiamas(skaicius) {
     return skaicius > 0;
 }
 
-
+/**
+ * Funkcija išveda ar skaičius yra teigiamas. Funkcija naudoja arTeigiamas() funkciją, kurią susikūriau papildomai.
+ * @param {*} skaicius tikrinamas skaičius
+ */
 function isvestiArTeigiamas(skaicius) {
     if (arTeigiamas(skaicius) == true) {                // == true nereikia rašyti, su booleanais tą automatiškai if'e supranta
         alert("Skaičius " + skaicius + " yra teigiamas");
@@ -61,6 +64,11 @@ function skaiciuotiMokesti(pajamos) {
     return mokestis;
 }
 
+/**
+ * Funkcija išveda suformatuotai mokesčio atsakymą. Funkcija nenaudoja kitos funkcijos, nes ji iš karto gauna ne pajamas, o jau mokestį,
+ * Todėl jos panaudojimas pagrindinėje programoje truputį skiriasi nuo praeito pavyzdžio
+ * @param {*} mokestis apskaičiuotas mokestis
+ */
 function isvestiMokesti(mokestis) {
     alert("Pagal jūsų pajamas, jūsų mokestis yra: " + mokestis);
 }

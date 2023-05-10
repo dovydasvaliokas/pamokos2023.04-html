@@ -5,6 +5,12 @@ window.onload = function() {
     alert("Įvestas mėnesis yra: " + menesioZodisPagalSkaiciuSwitch(x));
 }
 
+/**
+ * Funkcija konvertuoja mėnesio skaitinę reikšmę į žodinę reikšmę. 
+ * Šitas pavyzdys naudoja if-else-if variantą
+ * @param {*} menesioSkaicius mėnesio skaičius
+ * @returns jeigu 1, grąžina "sausis", jeigu 2 - grąžina "vasaris", jeigu 3 - "kovas" ir t.t.
+ */
 function menesioZodisPagalSkaiciuElseIf(menesioSkaicius) {
     if (menesioSkaicius == 1) {
         return "sausis";
@@ -35,6 +41,13 @@ function menesioZodisPagalSkaiciuElseIf(menesioSkaicius) {
     }
 }
 
+
+/**
+ * Funkcija konvertuoja mėnesio skaitinę reikšmę į žodinę reikšmę. 
+ * Šitas pavyzdys naudoja switch variantą
+ * @param {*} menesioSkaicius mėnesio skaičius
+ * @returns jeigu 1, grąžina "sausis", jeigu 2 - grąžina "vasaris", jeigu 3 - "kovas" ir t.t.
+ */
 function menesioZodisPagalSkaiciuSwitch(menesioSkaicius) {
     let menesioDienaZodis;
     switch (menesioSkaicius) {
