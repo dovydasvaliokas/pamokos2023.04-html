@@ -6,7 +6,7 @@ window.onload = function() {
     alert("Jūsų bilieto kaina yra: " + skaiciuotiBilietoKaina(amzius, arTuriPazymejima));
 
     let sk = +prompt("Įveskite skaičių");
-    patikrinaArLyginisArbaTrejetoIrPenketoKartotinis
+    patikrinaArLyginisArbaTrejetoIrPenketoKartotinis(sk);
 }
 
 function skaiciuotiBilietoKaina(amzius, arTuriPensPazymejima) {
