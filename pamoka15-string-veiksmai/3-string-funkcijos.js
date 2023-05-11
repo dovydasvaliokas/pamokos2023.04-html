@@ -32,6 +32,13 @@ window.onload = function() {
 }
 
 // Papildomos funkcijos
+/**
+ * Funkcija palygina du tekstus ignoruojant mažąsias ir didžiąsias raides.
+ * T.y., jeigu tekstai vienodi pagal raides, nesvarbu ar jų raidžių dydžiai skiriasi - jie yra vienodi
+ * @param {*} t1 pirmas tekstas
+ * @param {*} t2 antras tekstas
+ * @returns grąžina true, jeigu vienodi, grąžina false, jeigu skirtingi.
+ */
 function palygintiDuTekstus(t1, t2) {
     if (t1.toLocaleLowerCase() == t2.toLocaleLowerCase()) {
         return true;
