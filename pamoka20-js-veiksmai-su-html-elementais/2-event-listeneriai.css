@@ -1,0 +1,10 @@
+.mygtukas {
+    border: 1px solid black;
+    padding: 0.5em;
+    cursor: pointer;
+    display: inline;
+}
+
+.mygtukas:hover {
+    background-color: beige;
+}

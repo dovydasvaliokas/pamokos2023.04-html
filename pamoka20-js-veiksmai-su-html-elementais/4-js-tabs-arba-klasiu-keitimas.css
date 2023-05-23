@@ -1,0 +1,32 @@
+.tab-juosta {
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.tab {
+    cursor: pointer;
+    border-right: 1px solid black;
+    padding: 0.5em;
+}
+
+.tab.active {
+    background-color:blanchedalmond;
+}
+
+.tab:hover {
+    background-color: bisque;
+}
+
+.content-box {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.turinys {
+    display: none;
+}
+
+.turinys.active {
+    display: block;
+}
