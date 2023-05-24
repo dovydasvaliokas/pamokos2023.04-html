@@ -1,0 +1,9 @@
+.ivedimo-div {
+    display: flex;
+    padding: 0.5em;
+}
+
+.ivedimo-div > label {
+    width: 10%;
+    min-width: 180px;
+}
