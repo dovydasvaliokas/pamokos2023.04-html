@@ -10,14 +10,20 @@ public class P3VeiksmaiSuMasyvais {
         System.out.println("Įvesto masyvo suma yra: " + suma);
         isvestiBruksnelius();
 
-        int[] skaiciaiKopija = skaiciai;
-        isvestiMasyva(skaiciaiKopija);
+        // 18:55 masyvų klonavimas negalimas per lygybę, nes tada nusikopijuoja tik adresas atmintyje
+//        int[] skaiciaiKopija = skaiciai;
+//        isvestiMasyva(skaiciaiKopija);
+//
+//        skaiciai[0] = 100;
+//        skaiciai[1] = 200;
+//        isvestiMasyva(skaiciai);
+//        isvestiBruksnelius();
+//        isvestiMasyva(skaiciaiKopija);
 
-        skaiciai[0] = 100;
-        skaiciai[1] = 200;
-        isvestiMasyva(skaiciai);
+        System.out.println("Masyve teigiamų skaičių yra: " + kiekTeigiamu(skaiciai));
         isvestiBruksnelius();
-        isvestiMasyva(skaiciaiKopija);
+        int[] teigiamiSkaiciai = filtruotiTeigiamus(skaiciai);
+        isvestiMasyva(teigiamiSkaiciai);
 
 
     }
@@ -41,7 +47,25 @@ public class P3VeiksmaiSuMasyvais {
     }
 
     public static int[] filtruotiTeigiamus(int[] masyvas) {
-        return new int[2];
+        int[] prafiltruotas = new int[kiekTeigiamu(masyvas)];
+        int j = 0;
+        for (int i = 0; i < masyvas.length; i++) {
+            if (masyvas[i] > 0) {
+                prafiltruotas[j] = masyvas[i];
+                j++;
+            }
+        }
+        return prafiltruotas;
+    }
+
+    public static int kiekTeigiamu(int[] masyvas) {
+        int kiekis = 0;
+        for (int i = 0; i < masyvas.length; i++) {
+            if (masyvas[i] > 0) {
+                kiekis++;
+            }
+        }
+        return kiekis;
     }
 
     public static int[] nuskaitytiMasyvaIsKonsoles() {
