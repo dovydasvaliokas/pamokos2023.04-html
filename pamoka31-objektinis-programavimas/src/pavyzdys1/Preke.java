@@ -6,4 +6,15 @@ public class Preke {
     int kiekisSandelyje;
     int id;
     String kategorija;
+
+    @Override
+    public String toString() {
+        return "Preke{" +
+                "pavadinimas='" + pavadinimas + '\'' +
+                ", kaina=" + kaina +
+                ", kiekisSandelyje=" + kiekisSandelyje +
+                ", id=" + id +
+                ", kategorija='" + kategorija + '\'' +
+                '}';
+    }
 }
