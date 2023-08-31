@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Filmų paieška</title>
+<body>
+</head>
+<h3 th:text="${kategorija.getPavadinimas()}"></h3>
+<div th:each="receptas : ${kategorija.getReceptai()}" class="list-group">
+    <a th:text="${receptas.getPavadinimas()}" th:href="@{/receptai/informacija/} + ${receptas.getId()}" class="list-group-item list-group-item-action"></a>
+</div>
+</body>
+</html>
