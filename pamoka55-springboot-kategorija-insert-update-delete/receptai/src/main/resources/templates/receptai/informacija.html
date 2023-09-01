@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+</head>
+<body>
+<table class="table table-striped">
+    <tr>
+        <th>Pavadinimas</th>
+        <td th:text="${receptas.getPavadinimas()}"></td>
+    </tr>
+    <tr>
+        <th>Aprašymas</th>
+        <td th:text="${receptas.getAprasymas()}"></td>
+    </tr>
+    <tr>
+        <th>Kaina</th>
+        <td th:text="${receptas.getKaina()}"></td>
+    </tr>
+    <tr>
+        <th>Kalorijos per 100 gramų</th>
+        <td th:text="${receptas.getKalorijosPer100g()}"></td>
+    </tr>
+    <tr>
+        <th>Kategorija</th>
+        <td th:text="${receptas.getKategorija().getPavadinimas()}"></td>
+    </tr>
+</table>
+</body>
+</html>
